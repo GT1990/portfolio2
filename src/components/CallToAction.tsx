@@ -21,7 +21,7 @@ const CallToAction = () => {
           </Button>
         </div>
       </div>
-      <img className={styles.img} src={me} alt="image of Ahmad" />
+      <img className={styles.img} src={me} alt="Ahmad Ibrahim" />
     </div>
   );
 };
