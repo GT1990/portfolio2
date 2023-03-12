@@ -108,7 +108,7 @@ const Links = () => {
           </IconButton>
         </a>
       </Tooltip>
-      <Tooltip title="Blog" arrow>
+      <Tooltip title="Resume" arrow>
         <a
           href="https://gt1990.github.io/"
           target="_blank"
