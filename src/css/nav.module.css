@@ -1,0 +1,47 @@
+.navWrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 100px;
+  position: fixed;
+  width: 100vw;
+  box-sizing: border-box;
+  z-index: 10;
+}
+
+.logo {
+  height: 50px;
+  padding-top: 10px;
+}
+.logoWrapper {
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+}
+
+.linksWrapper {
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+}
+.link {
+  transition: 0.3s;
+  margin: 5px;
+  padding: 5px;
+}
+.link:hover {
+  transform: scale(1.25);
+  transition: 0.3s;
+}
+.link svg {
+  height: 30px;
+  width: 30px;
+}
+.vlLight {
+  border-left: 2px solid black;
+  height: 50%;
+}
+.vlDark {
+  border-left: 2px solid white;
+  height: 50%;
+}
